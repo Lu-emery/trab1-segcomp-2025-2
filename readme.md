@@ -73,7 +73,7 @@ O exemplo de execução e explicação do código pode ser encontrado [no youtub
 Execute o código `main.py` a partir da pasta `tarefa1`.
 
 ```bash
-cd tarefa1_python
+cd tarefa1
 python main.py
 ```
 
@@ -142,3 +142,4 @@ Pelo navegador, siga os seguintes passos:
 2.  Acesse `https://localhost:443`. # Verifique o https
 
 3.  Verifique se o cadeado de segurança aparece sem alertas de erro.
+
