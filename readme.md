@@ -74,7 +74,7 @@ Execute o código `main.py` a partir da pasta `tarefa1`.
 
 ```bash
 cd tarefa1_python
-python generate_pki.py
+python main.py
 ```
 
 * **Arquivos esperados:** Será criada uma pasta `arquivos/` contendo `root.pem`, `server.key` e `server.crt`.
@@ -140,4 +140,5 @@ docker-compose up
 Pelo navegador, siga os seguintes passos:
 1.  Importe o arquivo `arquivos/root.pem` no seu navegador como uma **Autoridade Certificadora Confiável**.
 2.  Acesse `https://localhost:443`. # Verifique o https
+
 3.  Verifique se o cadeado de segurança aparece sem alertas de erro.
