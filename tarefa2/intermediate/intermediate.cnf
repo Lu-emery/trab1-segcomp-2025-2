@@ -1,0 +1,15 @@
+[ req ]
+distinguished_name = req_distinguished_name
+prompt             = no
+
+[ req_distinguished_name ]
+C  = BR
+ST = ES
+O  = UFES
+CN = Intermediate-CA-OpenSSL
+
+[ v3_intermediate_ca ]
+basicConstraints = critical, CA:TRUE, pathlen:0
+keyUsage         = critical, keyCertSign, cRLSign
+subjectKeyIdentifier = hash
+authorityKeyIdentifier = keyid:always,issuer
